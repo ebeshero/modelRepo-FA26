@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
+     * On Windows, go to the browser and type control + o and browse to find this file to open it.
+     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
+     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
+    -->
+    <head>
+        <!-- What's in the <head> element is a "meta" area not for display. 
+            It holds important information about the website's contents.
+            The text inside the <title> element does show in the top tab of a web browser. 
+             The <head> is where we will include info about styling the site, too. -->
+        <title>Gallery</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Here is a place where we can add a little styling code called CSS to this page. 
+            I used it to apply a background color to the body element.
+        -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
+        <h1>Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="resume.html">Résumé</a> | 
+            <a href="gallery.html">Gallery</a> | <a href="digit100.html">Digit 100 Web Essays</a>
+            | <a href="october2026.html">October 2026</a>
+        </nav>
+        <p>This is my Gallery page.</p>
+        <!--<div class="threeD">-->
+           <p>Here is a 3D model that we made in DIGIT 100 from the library in September 2025.</p>   
+        
+            <iframe data-original-width="1280" data-original-height="760" 
+                src="https://www.thinglink.com/view/scene/2024884504660804261" 
+                 style="border: none;" 
+                webkitallowfullscreen="y" mozallowfullscreen="y" allowfullscreen="y" scrolling="no">
+            </iframe>
+          <script async="y" src="//cdn.thinglink.me/jse/responsive.js"></script>
+        
+        
+        <!--</div>-->
+        
+       
+        <p>Go back to my <a href="index.html">main page</a>.
+        </p>
+        
+        <img src="images/littleNewt.jpg" />
+        
+
+        <div class="side-by-side">
+            
+            <figure class="trex">
+                <img src="images/tRex-MrRogers.jpg" />
+                <figcaption>T-Rex at the Hot Metal Bridge in Pittsburgh</figcaption>
+                
+            </figure>
+            
+            <figure class="newt">
+                <img src="images/littleNewt.jpg" />
+                <figcaption>Image of my firebelly newt, which
+                can be extremely huge without any CSS to control it.</figcaption>
+                
+            </figure>
+          
+          
+            <figure class="llama">
+                <img src="images/llama_mp.jpg" />
+                <figcaption>Here is a llama I encountered on an amazing hiking trip in Macchu
+                    Picchu, on the Inca Trail.</figcaption>
+            </figure>
+        </div>
+        <footer class="featureBlock">
+            <p>Shout out to the w3c community, and the developers of markup languages, and the oXygen XML editor!</p>
+            <p>We are . . . Digit at Penn State Behrend!</p>
+        </footer>
+    </body>
+</html>

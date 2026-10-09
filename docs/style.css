@@ -1,0 +1,109 @@
+body {
+
+    background: papayaWhip;
+    /* background: LightSteelBlue; */
+    /*font-family: Comic-sans, Arial, Helvetica, sans-serif; */
+
+    font-family: Georgia, serif;
+    line-height: 1.5em;
+    font-size: larger;
+    margin-left:5em;
+    margin-right:5em;
+}
+
+img {
+   width: 89%;
+   max-width: 500px;
+
+}
+
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+}
+
+
+div.side-by-side {
+    display: flex;
+    background-color: lavender;
+    width:90%;
+    
+}
+
+figure { 
+ background-color: green;
+
+ 
+
+}
+
+figure.trex{ 
+flex:1;}
+
+figure.newt {
+    flex:1 ;
+}
+
+figure.llama {
+    flex: 3;
+   
+}
+
+
+
+ul.resume {
+    list-style-type: circle;
+    border-style: groove;
+    border-color: coral;
+    border-width: 7px;
+
+}
+
+div.threeD {
+    width:100%;
+    height:100%;
+    background:lightpink;
+    
+}
+
+div.threeD iframe { 
+  background:yellow;
+  width: 100%;
+  height:100%;
+  /*max-width: 1920px;
+  max-height: 1080px;*/
+}
+
+nav {
+    background: #c9ecf2;
+    font-weight: bold;
+    font-size:2vw;
+    padding:4vw;   
+
+}
+
+nav.listStyle ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+nav.listStyle ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.listStyle ul li a:hover {
+  background-color: #111111;
+} 
+
+
+
+.featureBlock {
+    background-color: pink;
+    font-size: smaller;
+}
