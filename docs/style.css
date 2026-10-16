@@ -11,10 +11,21 @@ body {
     margin-right: 5em;
 }
 
-img {
-    width: 89%;
-    max-width: 500px;
+body#resume { 
+    font-family: serif;
+    background:rgb(159, 226, 191);
+}
 
+img {
+    width: 95%;
+  /* max-width: 500px;*/
+
+}
+
+img.homePage {
+    width:50%;
+    max-width:600px;
+    
 }
 
 figcaption {
@@ -25,15 +36,17 @@ figcaption {
 
 div.side-by-side {
     display: flex;
-    background-color: lavender;
-    width: 90%;
+    background-color: green;
+    width: 95%;
 
+}
+iframe {
+    width:80%;
 }
 
 figure {
-    background-color: green;
-
-
+    background-color: pink;
+    padding:2em;
 
 }
 
